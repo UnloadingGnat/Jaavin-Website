@@ -18,7 +18,7 @@ export default function Home() {
         
         <div className={styles.content}>
           <div className={styles.header}>
-            Hello👋, I'm Jaavin. 
+            Hello👋, I&apos;m Jaavin. 
           </div>
           <div className={styles.headerinfo}>
             I love solving problems and learning! I am an Engineering 1 student at McMaster University interested in robotics and rockets! 
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.bio}>
-            <div className={styles.biotitle}>What I'm Doing Now</div>
+            <div className={styles.biotitle}>What I&apos;m Doing Now</div>
             <div className={styles.biocontent}>
               I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca/'>McMaster Rocketry Team</a>. A member of the Engineering 1 Operating Committee. As well as a <a className={styles.link} href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>Student Ambassador</a>  for the department of engineering.
             </div>
