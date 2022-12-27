@@ -98,7 +98,7 @@ export const CardMacRocket = () => (
                     h1
                     size={20}
                     css={{
-                        textGradient: "45deg, $red600 -10%, $red50 80%",
+                        textGradient: "45deg, $red600 -10%, $red50 40%",
                     }}
                     weight="bold"
                 >
