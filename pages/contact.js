@@ -196,7 +196,7 @@ export default function Home() {
                                 Feel free to contact me for any offers, questions, and inquiries, or it&apos;s cool to just say hi too :) 
                             </Text>
                         </div>
-                            <a href='https://jaavin.ca/'>
+                            <a href='https://simple.jaavin.ca/'>
                                 <Button color="gradient" auto ghost>
                                     Simple Portfolio!
                                 </Button>
