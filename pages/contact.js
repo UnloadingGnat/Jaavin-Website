@@ -172,11 +172,36 @@ export default function Home() {
             <main className={styles.main}>
 
                 <div className={styles.content}>
-                    <a href='https://jaavin.ca/'>
-                        <Button color="gradient" auto ghost>
-                            Click here for my simple portfolio!
-                        </Button>
-                    </a>
+                    <div className={styles.header}>
+                        <div className={styles.headertext}>
+                            <Text
+                                h1
+                                size={60}
+                                css={{
+                                    textGradient: "45deg, $purple600 -20%, $pink600 100%",
+                                }}
+                                weight="bold"
+                            >
+                                Say Hi!
+                            </Text>
+                            <Text
+                                h1
+                                size={20}
+                                css={{
+                                    textGradient: "45deg, $yellow600 -20%, $red600 100%",
+                                    marginTop: "-35px",
+                                }}
+                                weight="bold"
+                            >
+                                Feel free to contact me for any offers, questions, and inquiries, or it&apos;s cool to just say hi too :) 
+                            </Text>
+                        </div>
+                            <a href='https://jaavin.ca/'>
+                                <Button color="gradient" auto ghost>
+                                    Simple Portfolio!
+                                </Button>
+                            </a>
+                    </div>
                     <Grid.Container gap={1} justify="center">
                         <Grid xs={12} sm={4}>
                             <a href='https://github.com/UnloadingGnat'>
@@ -204,15 +229,15 @@ export default function Home() {
 
 
                 <div className={styles.grid}>
-                    <a
-                        href="https://jaavin.ca/"
+                    <Link
+                        href="/projects"
                         className={styles.card}
                         rel="noopener noreferrer"
                     >
                         <h2 className={inter.className}>
                             Projects
                         </h2>
-                    </a>
+                    </Link>
 
                     <Link
                         href="/"

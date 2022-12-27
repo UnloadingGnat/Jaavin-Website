@@ -60,15 +60,15 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a
-            href="https://jaavin.ca/"
+          <Link
+            href="/projects"
             className={styles.card}
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Projects
             </h2>
-          </a>
+          </Link>
 
           <a
             href="#/"
