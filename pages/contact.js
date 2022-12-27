@@ -193,7 +193,7 @@ export default function Home() {
                                 }}
                                 weight="bold"
                             >
-                                Feel free to contact me for any offers, questions, and inquiries, or it's cool to just say hi too :) 
+                                Feel free to contact me for any offers, questions, and inquiries, or it&apos;s cool to just say hi too :) 
                             </Text>
                         </div>
                             <a href='https://jaavin.ca/'>

@@ -133,7 +133,7 @@ export const CardMacRocket = () => (
                                 Assistant Project Manager
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                I'm currently working here! :)
+                                I&apos;m currently working here! :)
                             </Text>
                         </Col>
                     </Row>
