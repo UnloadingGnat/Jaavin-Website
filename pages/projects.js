@@ -183,6 +183,8 @@ export default function Home() {
         // browser code
         document.getElementById("html").style.overflow = "scroll";
         document.getElementById("body").style.overflow = "hidden";
+        document.getElementById("html").style.overflowX = "hidden";
+        document.getElementById("body").style.overflowX = "hidden";
     }
     return (
         <>
