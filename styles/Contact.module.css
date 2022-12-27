@@ -225,6 +225,19 @@
     font-family: var(--font-mono);
 }
 
+.header {
+    margin: 0;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.headertext {
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+}
+
 .grid {
     display: flex;
     position: fixed;
