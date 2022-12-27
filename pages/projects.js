@@ -29,7 +29,6 @@ export const CardInverse = () => (
                 objectFit="cover"
                 width="100%"
                 height="100%"
-                alt="Relaxing app background"
             />
         </Card.Body>
         <Card.Footer
@@ -49,8 +48,8 @@ export const CardInverse = () => (
                             <Text color="#d1d1d1" size={14}>
                                 Software Development Co-Lead
                             </Text>
-                            <Text color="#d1d1d1" size={10}>
-                                As co-lead for software development, I oversaw the implementation of software systems for a 120lb competitive robot.
+                            <Text color="#d1d1d1" size={12}>
+                                Oversaw the implementation of software systems for a 120lb competitive robot.
                             </Text>
                         </Col>
                     </Row>
@@ -98,7 +97,7 @@ export const CardMacRocket = () => (
                     h1
                     size={20}
                     css={{
-                        textGradient: "45deg, $red600 -10%, $red50 40%",
+                        textGradient: "45deg, $gray600 -10%, $red50 40%",
                     }}
                     weight="bold"
                 >
@@ -108,11 +107,10 @@ export const CardMacRocket = () => (
         </Card.Header>
         <Card.Body css={{ p: 0 }}>
             <Card.Image
-                src="macrocket.png"
+                src="cadrocket.png"
                 objectFit="cover"
                 width="100%"
                 height="100%"
-                alt="Relaxing app background"
             />
         </Card.Body>
         <Card.Footer
@@ -163,7 +161,420 @@ export const CardMacRocket = () => (
                             </Row>
                             <Col>
                                 <Badge size="sm">Project Management</Badge>
-                                <Badge size="sm">ROCKETS</Badge>
+                                <Badge size="sm">ROCKETS 🚀</Badge>
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+
+export const Huff = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $gray600 -10%, $red50 40%",
+                    }}
+                    weight="bold"
+                >
+                    Huff Docs
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="huff.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Frontend Developer
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Designed the frontend for the documentation website. Used by over 5 thousand people.
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://docs.huff.sh/'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                <Badge size="sm">Vuepress</Badge>
+                                <Badge size="sm">CSS</Badge>
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+export const Irc = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $purple600 -5%, $purple50 80%",
+                    }}
+                    weight="bold"
+                >
+                    Flashback IRC
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="cmd.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Frontend Developer
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Designed the frontend for the documentation website.
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://github.com/UnloadingGnat/Flashback-IRC'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                <Badge size="sm">React</Badge>
+                                <Badge size="sm">Django</Badge>
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+
+export const Route = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $blue600 -5%, $blue50 80%",
+                    }}
+                    weight="bold"
+                >
+                    Routemixer
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="route.jpg"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Hackathon
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Designed the frontend for website, and utilized Google Maps API 
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://devpost.com/software/routemixer'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                <Badge size="sm">React</Badge>
+                                <Badge size="sm">Google Maps API</Badge>
+                                <Badge size="sm">CSS</Badge>
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+export const Engop = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $green600 -5%, $blue50 98%",
+                    }}
+                    weight="bold"
+                >
+                    Engineering 1 Operating Committee
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="englogo.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Operating Committee Member
+                            </Text>
+                            <Text color="#d1d1d1" size={12}>
+                                representing ~1000 engineering 1 students; consulted to review the program.
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                <Badge size="sm">Operations Management </Badge>
+                                <Badge size="sm">Academic Advising</Badge>
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+export const Student = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $yellow600 -5%, $blue50 98%",
+                    }}
+                    weight="bold"
+                >
+                    Engineering Ambassador
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="student.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Student Ambassador
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                First point-of-contact in answering questions about eng 1 for prospective students
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                <Badge size="sm">Interpersonal Skills</Badge>
+                                <Badge size="sm">Communication</Badge>
 
                             </Col>
                         </Col>
@@ -215,10 +626,32 @@ export default function Home() {
                             <CardMacRocket />
                         </Grid>
                         <Grid xs={12} sm={4}>
-                            <CardInverse />
+                            <Huff />
                         </Grid>
                         <Grid xs={12} sm={4}>
-                            <CardInverse />
+                            <Irc />
+                        </Grid>
+                        <Grid xs={12} sm={4}>
+                            <Route />
+                        </Grid>
+                    </Grid.Container>
+                    <Text
+                        h1
+                        size={60}
+                        css={{
+                            textGradient: "45deg, $purple600 -20%, $pink600 100%",
+                            marginLeft: "-30px"
+                        }}
+                        weight="bold"
+                    >
+                        Some of My Leadership Experiences!
+                    </Text>
+                    <Grid.Container gap={1} justify="center">
+                        <Grid xs={12} sm={4}>
+                            <Engop />
+                        </Grid>
+                        <Grid xs={12} sm={4}>
+                            <Student />
                         </Grid>
                     </Grid.Container>
 

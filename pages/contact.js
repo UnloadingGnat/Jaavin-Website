@@ -195,11 +195,6 @@ export default function Home() {
                                 Feel free to contact me for any offers, questions, and inquiries, or it&apos;s cool to just say hi too :) 
                             </Text>
                         </div>
-                            <a href='https://simple.jaavin.ca/'>
-                                <Button color="gradient" auto ghost>
-                                    Simple Portfolio!
-                                </Button>
-                            </a>
                     </div>
                     <Grid.Container gap={1} justify="center">
                         <Grid xs={12} sm={4}>
