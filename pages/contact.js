@@ -48,7 +48,6 @@ export const Card2 = () => (
             width="100%"
             height={340}
             objectFit="cover"
-            alt="Card image background"
         />
     </Card>
 );
@@ -71,7 +70,6 @@ export const Card3 = () => (
             width="100%"
             height={340}
             objectFit="cover"
-            alt="Card image background"
         />
     </Card>
 );
@@ -91,11 +89,11 @@ export const Card5 = () => (
         </Card.Header>
         <Card.Body css={{ p: 0 }}>
             <Card.Image
-                src="linked.avif"
+                src="linked.png"
                 objectFit="cover"
                 width="100%"
                 height="100%"
-                alt="Relaxing app background"
+                alt="Linkedin Logo"
             />
         </Card.Body>
         <Card.Footer
@@ -117,7 +115,7 @@ export const Card5 = () => (
                                 css={{ bg: "black", br: "50%" }}
                                 height={40}
                                 width={40}
-                                alt="Breathing app icon"
+                                alt="linkedin"
                             />
                         </Col>
                         <Col>
