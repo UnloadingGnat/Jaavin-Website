@@ -205,7 +205,7 @@ export default function Home() {
 
                 <div className={styles.grid}>
                     <a
-                        href="/projects"
+                        href="https://jaavin.ca/"
                         className={styles.card}
                         rel="noopener noreferrer"
                     >

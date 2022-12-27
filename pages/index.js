@@ -61,7 +61,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="#"
+            href="https://jaavin.ca/"
             className={styles.card}
             rel="noopener noreferrer"
           >
