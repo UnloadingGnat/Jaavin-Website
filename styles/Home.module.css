@@ -7,6 +7,7 @@
   min-height: 100vh;
 }
 
+
 .content {
   display: flex;
   flex-direction: column;
@@ -27,6 +28,14 @@
   margin-top: -50px;
 }
 
+.cardactive {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background-color: rgb(35, 35, 35);
+  color: rgb(229, 229, 229);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
 
 .images {
   display: flex;
@@ -71,6 +80,17 @@
     top: 48em;
     
   }
+
+    .card h2 {
+      min-width: 0;
+      font-size: 23px;
+      
+    }
+  
+    .cardactive h2 {
+      min-width: 0;
+      font-size: 23px;
+    }
 
 }
   .gallery2 {
@@ -151,7 +171,7 @@
 }
 
 .whitespace {
-  height: 150px;
+  height: 190px;
 }
 .headerinfo {
 
@@ -207,10 +227,11 @@
 .grid {
   display: flex;
   position: fixed;
-  bottom: 2em;
+  overflow-y: hidden;
+  bottom: 1em;
   background: white;
   gap: 15px;
-  padding: 5px;
+  max-height: 100px;
   border-radius: var(--border-radius);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
@@ -230,9 +251,6 @@
   transition: transform 200ms;
 }
 
-.card h2 {
-  font-weight: 600;
-}
 
 .card p {
   margin: 0;
@@ -287,7 +305,6 @@
   margin-left: 16px;
   transform: translateZ(0);
   border-radius: var(--border-radius);
-  overflow: hidden;
   box-shadow: 0px 2px 8px -1px #0000001a;
 }
 

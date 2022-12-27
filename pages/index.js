@@ -2,10 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  if (typeof window !== "undefined") {
+    // browser code
+    document.getElementById("html").style.overflow = "hidden";
+    document.getElementById("body").style.overflow = "scroll";
+  }
   return (
     <>
       <Head>
@@ -42,7 +50,7 @@ export default function Home() {
           <div className={styles.bio}>
             <div className={styles.biotitle}>What I&apos;m Doing Now</div>
             <div className={styles.biocontent}>
-              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca/'>McMaster Rocketry Team</a>. A member of the Engineering 1 Operating Committee. As well as a <a className={styles.link} href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>Student Ambassador</a>  for the department of engineering.
+              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca/'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>Engineering 1 Operating Committee</a>. As well as a <a className={styles.link} href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>Student Ambassador</a>  for the Department of Engineering.
             </div>
             <div className={styles.whitespace}></div>
           </div>
@@ -53,7 +61,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://jaavin.ca"
+            href="#"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -63,8 +71,8 @@ export default function Home() {
           </a>
 
           <a
-            href="#"
-            className={styles.card}
+            href="#/"
+            className={styles.cardactive}
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
@@ -72,15 +80,15 @@ export default function Home() {
             </h2>
           </a>
 
-          <a
-            href="https://jaavin.ca"
+          <Link
+            href="/contact"
             className={styles.card}
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Contact
             </h2>
-          </a>
+          </Link>
 
         </div>
       </main>
