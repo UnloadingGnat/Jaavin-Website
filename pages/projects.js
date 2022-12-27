@@ -553,7 +553,7 @@ export const Student = () => (
                     <Row>
                         <Col>
                             <Row justify='flex-end'>
-                                <a href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>
+                                <a href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>
                                     <Button
                                         flat
                                         auto
