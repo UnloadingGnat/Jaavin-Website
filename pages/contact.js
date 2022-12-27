@@ -3,13 +3,154 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Contact.module.css'
 import { Button, Grid } from '@nextui-org/react';
-import { Card1 } from './Card1';
-import { Card2 } from './Card2';
-import { Card3 } from './Card3';
-import { Card4 } from './Card4';
-import { Card5 } from './Card5';
 import Link from 'next/link'
+import { Card, Col, Row, Text } from "@nextui-org/react";
 
+
+
+export const Card1 = () => (
+    <Card>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
+                    Take a look at my
+                </Text>
+                <Text h4 color="white">
+                    Github
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Image
+            src="github.webp"
+            objectFit="cover"
+            width="100%"
+            height={340}
+            alt="Card image background"
+        />
+
+    </Card>
+);
+
+export const Card2 = () => (
+    <Card css={{ w: "100%" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
+                    Send me an
+                </Text>
+                <Text h4 color="white">
+                    Email
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Image
+            src="email.webp"
+            width="100%"
+            height={340}
+            objectFit="cover"
+            alt="Card image background"
+        />
+    </Card>
+);
+
+
+export const Card3 = () => (
+    <Card css={{ bg: "$black", w: "100%" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
+                    Download my
+                </Text>
+                <Text h4 color="white">
+                    Resume
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Image
+            src="resume.webp"
+            width="100%"
+            height={340}
+            objectFit="cover"
+            alt="Card image background"
+        />
+    </Card>
+);
+
+
+export const Card5 = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
+                    Connect with me on
+                </Text>
+                <Text h3 color="white">
+                    Linkedin
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="linked.avif"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+                alt="Relaxing app background"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col span={3}>
+                            <Card.Image
+                                src="linklogo.png"
+                                css={{ bg: "black", br: "50%" }}
+                                height={40}
+                                width={40}
+                                alt="Breathing app icon"
+                            />
+                        </Col>
+                        <Col>
+
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row justify="flex-end">
+                        <a href="https://www.linkedin.com/in/jaavin/">
+                            <Button
+                                flat
+                                auto
+                                rounded
+                                css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                            >
+
+                                <Text
+                                    css={{ color: "inherit" }}
+                                    size={12}
+                                    weight="bold"
+                                    transform="uppercase"
+                                >
+                                    Connect
+                                </Text>
+                            </Button>
+                        </a>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
 
 const inter = Inter({ subsets: ['latin'] })
 
