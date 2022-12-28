@@ -163,8 +163,8 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Jaavin Homepage</title>
-                <meta name="description" content="Jaavin's Homepage" />
+                <title>Jaavin's Website</title>
+                <meta name="description" content="Jaavin's Website" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
