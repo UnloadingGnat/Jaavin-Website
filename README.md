@@ -1,4 +1,4 @@
-# ✨ [jaavin.ca](jaavin.ca) ✨
+# ✨ [jaavin.ca](https://jaavin.ca/) ✨
 
 
 #### Design
