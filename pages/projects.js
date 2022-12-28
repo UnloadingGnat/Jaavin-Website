@@ -510,7 +510,7 @@ export const Student = () => (
                     h1
                     size={20}
                     css={{
-                        textGradient: "45deg, $yellow600 -5%, $blue50 98%",
+                        textGradient: "45deg, $cyan600 -5%, $yellow50 78%",
                     }}
                     weight="bold"
                 >
