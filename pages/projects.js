@@ -293,7 +293,7 @@ export const Irc = () => (
                     <Row>
                         <Col>
                             <Text color="#d1d1d1" size={14}>
-                                Frontend Developer
+                                Backend Developer
                             </Text>
                             <Text color="#d1d1d1" size={14}>
                                 Worked on the models for the back-end using REST framework.
@@ -544,7 +544,7 @@ export const Student = () => (
                                 Student Ambassador
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                First point-of-contact in answering questions about engineering for prospective students
+                                Answering questions about engineering for prospective students
                             </Text>
                         </Col>
                     </Row>
