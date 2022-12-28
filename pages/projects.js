@@ -644,7 +644,7 @@ export default function Home() {
                         }}
                         weight="bold"
                     >
-                        Some of My Leadership Experiences!
+                        Some of my Leadership Experiences!
                     </Text>
                     <Grid.Container gap={1} justify="center">
                         <Grid xs={12} sm={4}>
