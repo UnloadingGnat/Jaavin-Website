@@ -296,7 +296,7 @@ export const Irc = () => (
                                 Frontend Developer
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Designed the frontend for the documentation website.
+                                Worked on the models for the back-end using REST framework.
                             </Text>
                         </Col>
                     </Row>
