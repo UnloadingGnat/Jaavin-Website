@@ -49,7 +49,7 @@ export default function Home() {
           <div className={styles.bio}>
             <div className={styles.biotitle}>What I&apos;m Doing Now</div>
             <div className={styles.biocontent}>
-              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca/'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>Engineering 1 Operating Committee</a>. As well as a <a className={styles.link} href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>Student Ambassador</a>  for the Department of Engineering.
+              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca/'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>Engineering 1 Operating Committee</a>. As well as a <a className={styles.link} href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>Student Ambassador</a>  for the Faculty of Engineering.
             </div>
             <div className={styles.whitespace}></div>
           </div>
