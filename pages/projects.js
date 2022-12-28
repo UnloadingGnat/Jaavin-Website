@@ -462,7 +462,7 @@ export const Engop = () => (
                                 Operating Committee Member
                             </Text>
                             <Text color="#d1d1d1" size={12}>
-                                representing ~1000 engineering 1 students; consulted to review the program.
+                                Representing ~1000 engineering 1 students; consulted to review the program.
                             </Text>
                         </Col>
                     </Row>
