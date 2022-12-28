@@ -208,7 +208,7 @@ export default function Home() {
                             </a>
                         </Grid>
                         <Grid xs={12} sm={4}>
-                            <a href='Jaavin_Mohanakumar_Resume.pdf'>
+                            <a href='JaavinMohanakumarResume.pdf'>
                                 <Card3 />
                             </a>
                         </Grid>
