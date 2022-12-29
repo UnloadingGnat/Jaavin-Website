@@ -14,3 +14,4 @@ Handmade with Next.js, CSS, and Next-UI componenets
 - `npm run dev` to start development environment 
 - Upload documents/images to public folder
 - push to main, CI/CD is setup to deploy automatically
+
