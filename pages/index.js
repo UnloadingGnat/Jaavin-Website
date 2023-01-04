@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Draggable from 'react-draggable';
 
 
 
@@ -32,19 +33,25 @@ export default function Home() {
             I love solving problems and learning! I am an Engineering 1 student at McMaster University interested in robotics and rockets! 
           </div>
           <div className={styles.images}>
-            <div className={styles.gallery}>
-              <img src='jaavin.png'></img>
-              <div className={styles.subtitle}>Me :)</div>
-            </div>
-            <div className={styles.gallery2}>
-              <img src='1325.jpg'></img>
-              <div className={styles.subtitle2}>1325 at
-                2022 FIRST Ontario Provincial Championship</div>
-            </div>
-            <div className={styles.gallery3}>
-              <img src='macrocket.png'></img>
-              <div className={styles.subtitle2}>Marauder 1 at Launch Canada</div>
-            </div>
+            <Draggable>
+              <div className={styles.gallery}>
+                <img src='jaavin.png'></img>
+                <div className={styles.subtitle}>Me :)</div>
+              </div>
+            </Draggable>
+            <Draggable>
+              <div className={styles.gallery2}>
+                <img src='1325.jpg'></img>
+                <div className={styles.subtitle2}>1325 at
+                  2022 FIRST Ontario Provincial Championship</div>
+              </div>
+            </Draggable>
+            <Draggable>
+              <div className={styles.gallery3}>
+                <img src='macrocket.png'></img>
+                <div className={styles.subtitle2}>Marauder 1 at Launch Canada</div>
+              </div>
+            </Draggable>
           </div>
           <div className={styles.bio}>
             <div className={styles.biotitle}>What I&apos;m Doing Now</div>
