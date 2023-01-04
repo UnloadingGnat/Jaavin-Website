@@ -106,6 +106,7 @@
     max-width: 500px;
     flex-direction: column;
     justify-content: center;
+    cursor: all-scroll;
     
   }
   .gallery3 {
@@ -114,6 +115,7 @@
     max-width: 300px;
     flex-direction: column;
     justify-content: center;
+    cursor: all-scroll;
     
   }
   
@@ -122,6 +124,7 @@
     max-width: 300px;
     flex-direction: column;
     justify-content: center;
+    cursor: all-scroll;
   }
   
 .link {
