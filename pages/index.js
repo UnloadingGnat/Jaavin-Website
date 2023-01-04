@@ -35,20 +35,20 @@ export default function Home() {
           <div className={styles.images}>
             <Draggable>
               <div className={styles.gallery}>
-                <img src='jaavin.png'></img>
+                <img className={styles.imagedrag} src='jaavin.png'></img>
                 <div className={styles.subtitle}>Me :)</div>
               </div>
             </Draggable>
             <Draggable>
               <div className={styles.gallery2}>
-                <img src='1325.jpg'></img>
+                <img className={styles.imagedrag} src='1325.jpg'></img>
                 <div className={styles.subtitle2}>1325 at
                   2022 FIRST Ontario Provincial Championship</div>
               </div>
             </Draggable>
             <Draggable>
               <div className={styles.gallery3}>
-                <img src='macrocket.png'></img>
+                <img className={styles.imagedrag} src='macrocket.png'></img>
                 <div className={styles.subtitle2}>Marauder 1 at Launch Canada</div>
               </div>
             </Draggable>
