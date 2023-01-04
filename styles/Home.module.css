@@ -48,7 +48,13 @@
   .images {
     flex-direction: column;
     flex-wrap: wrap;
-    
+    margin-top: 60px !important;    
+  }
+
+  .biocontent {
+    font-size: 26px !important;
+    line-height: 46px !important;
+
   }
   
   .gallery {
@@ -60,7 +66,7 @@
     order: 3;
     width: 45%;
     top: 43em;
-    margin-top: 0px !important;
+    margin-top: -88px !important;
   }
   .gallery3 {
     order: 2;
@@ -78,6 +84,7 @@
   .bio {
     position: absolute;
     top: 48em;
+    margin-top: 130px !important;
     
   }
 
