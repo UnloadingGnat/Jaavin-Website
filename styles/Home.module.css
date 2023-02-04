@@ -52,25 +52,44 @@
   }
 
   .biocontent {
-    font-size: 26px !important;
+    font-size: 25px !important;
     line-height: 46px !important;
 
   }
   
-  .gallery {
-    width: 45%;
+  
+  .subtitle {
+    display: flex;
+    align-self: center;
+    color: rgb(111, 111, 111);
+    font-size: 16px !important;
+
   }
+  .subtitle2 {
+    display: flex;
+    align-self: center;
+    color: rgb(111, 111, 111);
+    font-size: 16px !important;
+
+  }
+
+    .gallery {
+      width: 50%;
+      margin-left: -10px;
+    }
 
   .gallery2 {
     position: absolute;
     order: 3;
-    width: 45%;
+    width: 50%;
     top: 43em;
-    margin-top: -88px !important;
+    margin-left: -10px;
+    margin-top: -70px !important;
   }
   .gallery3 {
     order: 2;
-    width: 45%;
+    width: 50%;
+    margin-left: -10px;
     margin-top: 0px !important;
   }
   
@@ -105,18 +124,14 @@
     margin-top: 180px;
     max-width: 500px;
     flex-direction: column;
-    justify-content: center;
-    cursor: all-scroll;
-    
+    justify-content: center;    
   }
   .gallery3 {
     display: flex;
     margin-top: 210px;
     max-width: 300px;
     flex-direction: column;
-    justify-content: center;
-    cursor: all-scroll;
-    
+    justify-content: center;    
   }
   
   .gallery {
@@ -124,7 +139,6 @@
     max-width: 300px;
     flex-direction: column;
     justify-content: center;
-    cursor: all-scroll;
   }
   
 .link {
@@ -166,6 +180,8 @@
   max-width: 800px;
   line-height: 53px;
 }
+
+
 
 .imagedrag {
   user-drag: none;

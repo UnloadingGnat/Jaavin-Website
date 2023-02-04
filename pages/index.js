@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Draggable from 'react-draggable';
 
 
 
@@ -30,33 +29,27 @@ export default function Home() {
             Hello👋, I&apos;m Jaavin. 
           </div>
           <div className={styles.headerinfo}>
-            I love solving problems and learning! I am an Engineering 1 student at McMaster University interested in robotics and rockets! 
+            I love solving problems and learning! I am an engineering  student at McMaster University interested in blockchain, ai, robotics and rockets! 
           </div>
           <div className={styles.images}>
-            <Draggable>
-              <div className={styles.gallery}>
-                <img className={styles.imagedrag} src='jaavin.png'></img>
-                <div className={styles.subtitle}>Me :)</div>
-              </div>
-            </Draggable>
-            <Draggable>
-              <div className={styles.gallery2}>
-                <img className={styles.imagedrag} src='1325.jpg'></img>
-                <div className={styles.subtitle2}>1325 at
-                  2022 FIRST Ontario Provincial Championship</div>
-              </div>
-            </Draggable>
-            <Draggable>
-              <div className={styles.gallery3}>
-                <img className={styles.imagedrag} src='macrocket.png'></img>
-                <div className={styles.subtitle2}>Marauder 1 at Launch Canada</div>
-              </div>
-            </Draggable>
+            <div className={styles.gallery}>
+              <img className={styles.imagedrag} src='jaavin.png'></img>
+              <div className={styles.subtitle}>Me :)</div>
+            </div>
+            <div className={styles.gallery2}>
+              <img className={styles.imagedrag} src='1325.jpg'></img>
+              <div className={styles.subtitle2}>1325 at
+                2022 FIRST Ontario Provincial Championship</div>
+            </div>
+            <div className={styles.gallery3}>
+              <img className={styles.imagedrag} src='macrocket.png'></img>
+              <div className={styles.subtitle2}>Marauder 1 at Launch Canada</div>
+            </div>
           </div>
           <div className={styles.bio}>
             <div className={styles.biotitle}>What I&apos;m Doing Now</div>
             <div className={styles.biocontent}>
-              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca/'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>Engineering 1 Operating Committee</a>. As well as a <a className={styles.link} href='https://api.unibuddy.co/og/mcmaster-university/buddies/students/634df0c2ef5b700e838b408e?buddyPosition=share'>Student Ambassador</a>  for the Faculty of Engineering.
+              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>Engineering 1 Operating Committee</a>. A Project Lead for the <a className={styles.link} href='https://www.mcmasterai.com'>McMaster AI Society</a>. And pursuing an engineering degree in my spare time.
             </div>
             <div className={styles.whitespace}></div>
           </div>
