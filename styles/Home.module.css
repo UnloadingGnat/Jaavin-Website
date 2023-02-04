@@ -89,6 +89,7 @@
   .gallery3 {
     order: 2;
     width: 50%;
+    margin-left: -10px;
     margin-top: 0px !important;
   }
   
