@@ -74,21 +74,21 @@
   }
 
     .gallery {
-      width: 55%;
+      width: 50%;
       margin-left: -30px;
     }
 
   .gallery2 {
     position: absolute;
     order: 3;
-    width: 55%;
+    width: 50%;
     top: 43em;
     margin-left: -30px;
-    margin-top: -63px !important;
+    margin-top: -67px !important;
   }
   .gallery3 {
     order: 2;
-    width: 55%;
+    width: 50%;
     margin-top: 0px !important;
   }
   
