@@ -510,7 +510,7 @@ export const Student = () => (
                     h1
                     size={20}
                     css={{
-                        textGradient: "45deg, $cyan600 -5%, $yellow50 78%",
+                        textGradient: "45deg, $blue700 -5%, $blue200 98%",
                     }}
                     weight="bold"
                 >
@@ -524,6 +524,9 @@ export const Student = () => (
                 objectFit="cover"
                 width="100%"
                 height="100%"
+                css={
+                    { mt: "-20px" }
+                }
             />
         </Card.Body>
         <Card.Footer
@@ -612,6 +615,9 @@ export default function Home() {
                     size={60}
                     css={{
                         textGradient: "45deg, $yellow600 -20%, $red600 100%",
+                        '@media (max-width: 900px)': {
+                            fontSize: "40px"
+                        }
                     }}
                     weight="bold"
                 >
@@ -640,7 +646,11 @@ export default function Home() {
                         size={60}
                         css={{
                             textGradient: "45deg, $purple600 -20%, $pink600 100%",
-                            marginLeft: "-30px"
+                            display: "flex",
+                            justifyContent: "center",
+                            '@media (max-width: 900px)': {
+                                fontSize: "40px"
+                            }
                         }}
                         weight="bold"
                     >
