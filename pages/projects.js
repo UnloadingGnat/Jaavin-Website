@@ -214,7 +214,7 @@ export const Huff = () => (
                                 Frontend Developer
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Designed the frontend for the documentation website. Used by over 5 thousand people.
+                                Developed the frontend for documentation website, used by over 5 thousand active users.
                             </Text>
                         </Col>
                     </Row>
@@ -296,7 +296,7 @@ export const Irc = () => (
                                 Backend Developer
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Worked on the models for the back-end using REST framework.
+                                Built the models for the back-end using REST framework.
                             </Text>
                         </Col>
                     </Row>
@@ -379,7 +379,7 @@ export const Route = () => (
                                 Hackathon
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Designed the frontend for website, and utilized Google Maps API 
+                                Developed the frontend for website, and utilized Google Maps API 
                             </Text>
                         </Col>
                     </Row>
