@@ -29,7 +29,7 @@ export default function Home() {
             Hello👋, I&apos;m Jaavin. 
           </div>
           <div className={styles.headerinfo}>
-            I love solving problems and learning! I am an engineering  student at McMaster University interested in blockchain, ai, robotics and rockets! <a className={styles.linkres} href='JaavinMohanakumarResume.pdf'>[Resume]</a>
+            I love solving problems and learning! I'm a first year engineering  student at McMaster University interested in blockchain, ai, robotics and rockets! <a className={styles.linkres} href='JaavinMohanakumarResume.pdf'>[Resume]</a>
           </div>
           <div className={styles.images}>
             <div className={styles.gallery}>
