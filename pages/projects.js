@@ -294,7 +294,7 @@ export const Macblock = () => (
                                 Founder and President
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Building a club to promote the study and implementation of Blockchain.
+                                Started a club to promote the study and implementation of Blockchain.
                             </Text>
                         </Col>
                     </Row>
