@@ -622,7 +622,7 @@ export const Route = () => (
                     <Row>
                         <Col>
                             <Text color="#d1d1d1" size={14}>
-                                Hackathon
+                                Frontend Developer
                             </Text>
                             <Text color="#d1d1d1" size={14}>
                                 Developed the frontend for website, and utilized Google Maps API 
