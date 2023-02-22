@@ -879,7 +879,7 @@ export const Cucai = () => (
                                 Delegate
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Invited to Canada's most prestigious AI conference
+                                Invited to Canada&apos;s most prestigious AI conference
                             </Text>
                         </Col>
                     </Row>
