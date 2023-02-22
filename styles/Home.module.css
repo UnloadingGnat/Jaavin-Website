@@ -156,6 +156,19 @@
   background-color: rgb(35, 35, 35);
   color: rgb(229, 229, 229);
 }
+.linkres {
+  padding-top: 1px;
+  padding-bottom: 1.27px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: rgb(35, 35, 35);
+  background-color: rgb(229, 229, 229);
+}
+
+.linkres:hover {
+  background-color: rgb(35, 35, 35);
+  color: rgb(229, 229, 229);
+}
 
 .bio {
   display: flex;

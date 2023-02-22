@@ -471,7 +471,7 @@ export const Engop = () => (
                     <Row>
                         <Col>
                             <Row justify='flex-end'>
-                                <a href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>
+                                <a href='https://www.eng.mcmaster.ca/programs/engineering-i/#tab-content-our-team'>
                                     <Button
                                         flat
                                         auto
@@ -628,7 +628,7 @@ export default function Home() {
                         <Grid xs={12} sm={4}>
                             <CardInverse />
                         </Grid>
-                        <Grid xs={12} sm={5}>
+                        <Grid xs={12} sm={4}>
                             <CardMacRocket />
                         </Grid>
                         <Grid xs={12} sm={4}>

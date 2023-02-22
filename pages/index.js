@@ -29,7 +29,7 @@ export default function Home() {
             Hello👋, I&apos;m Jaavin. 
           </div>
           <div className={styles.headerinfo}>
-            I love solving problems and learning! I am an engineering  student at McMaster University interested in blockchain, ai, robotics and rockets! 
+            I love solving problems and learning! I am an engineering  student at McMaster University interested in blockchain, ai, robotics and rockets! <a className={styles.linkres} href='JaavinMohanakumarResume.pdf'>[Resume]</a>
           </div>
           <div className={styles.images}>
             <div className={styles.gallery}>
@@ -49,7 +49,7 @@ export default function Home() {
           <div className={styles.bio}>
             <div className={styles.biotitle}>What I&apos;m Doing Now</div>
             <div className={styles.biocontent}>
-              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i#Our-Team'>Engineering 1 Operating Committee</a>. A Project Lead for the <a className={styles.link} href='https://www.mcmasterai.com'>McMaster AI Society</a>. And pursuing an engineering degree in my spare time.
+              I am currently the Assistant Project Manager for <a className={styles.link} href='https://www.macrocketry.ca'>McMaster Rocketry Team</a>. A member of the <a className={styles.link} href='https://www.eng.mcmaster.ca/programs/engineering-i/#tab-content-our-team'>Engineering 1 Operating Committee</a>. A Project Lead for the <a className={styles.link} href='https://www.mcmasterai.com'>McMaster AI Society</a>. And pursuing an engineering degree in my spare time.
             </div>
             <div className={styles.whitespace}></div>
           </div>
