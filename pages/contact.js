@@ -213,7 +213,9 @@ export default function Home() {
                             </a>
                         </Grid>
                         <Grid xs={12} sm={7}>
-                            <Card5 />
+                            <a href='https://www.linkedin.com/in/jaavin/'>
+                                <Card5 />
+                            </a>
                         </Grid>
                     </Grid.Container>
 
