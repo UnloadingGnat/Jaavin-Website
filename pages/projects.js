@@ -130,8 +130,8 @@ export const CardMacRocket = () => (
                             <Text color="#d1d1d1" size={14}>
                                 Assistant Project Manager
                             </Text>
-                            <Text color="#d1d1d1" size={14}>
-                                I&apos;m currently working here! :)
+                            <Text color="#d1d1d1" size={12}>
+                                Project manager for the software controls sub-team
                             </Text>
                         </Col>
                     </Row>
@@ -161,8 +161,6 @@ export const CardMacRocket = () => (
                             </Row>
                             <Col>
                                 <Badge size="sm">Project Management</Badge>
-                                <Badge size="sm">ROCKETS 🚀</Badge>
-
                             </Col>
                         </Col>
                     </Row>
@@ -172,6 +170,170 @@ export const CardMacRocket = () => (
     </Card>
 );
 
+export const Macai = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $black -10%, $black 70%",
+                    }}
+                    weight="bold"
+                >
+                    McMaster AI Society
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="macai.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Project Lead
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Building an Ethereum fraud detector using convolutional neural networks.
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://www.mcmasterai.com/'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                {/* <Badge size="sm"></Badge> */}
+
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+export const Macblock = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $red600 -10%, $red800 70%",
+                    }}
+                    weight="bold"
+                >
+                    McMaster Blockchain Club
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="macblock.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Founder and President
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Building a club to promote the study and implementation of Blockchain.
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://www.macblockchain.ca/'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                {/* <Badge size="sm"></Badge> */}
+
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
 export const Huff = () => (
     <Card css={{ w: "100%", h: "400px" }}>
         <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
@@ -327,6 +489,90 @@ export const Irc = () => (
                             <Col>
                                 <Badge size="sm">React</Badge>
                                 <Badge size="sm">Django</Badge>
+
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
+export const Chari3 = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={20}
+                    css={{
+                        textGradient: "45deg, $green900 -5%, $green50 80%",
+                    }}
+                    weight="bold"
+                >
+                    Chari3
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="chari3img.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Full-Stack Developer
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Only solo winner of an award in a hackathon with 430 participants.
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://devpost.com/software/chari3'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                <Badge size="sm">React</Badge>
+                                <Badge size="sm">Vite</Badge>
+                                <Badge size="sm">Solidity</Badge>
+                                <Badge size="sm">CSS</Badge>
 
                             </Col>
                         </Col>
@@ -502,6 +748,7 @@ export const Engop = () => (
         </Card.Footer>
     </Card>
 );
+
 export const Student = () => (
     <Card css={{ w: "100%", h: "400px" }}>
         <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
@@ -587,6 +834,89 @@ export const Student = () => (
         </Card.Footer>
     </Card>
 );
+export const Cucai = () => (
+    <Card css={{ w: "100%", h: "400px" }}>
+        <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+            <Col>
+                <Text
+                    h1
+                    size={16}
+                    css={{
+                        textGradient: "45deg, $blue900 -5%, $blue800 98%",
+                    }}
+                    weight="bold"
+                >
+                    Canadian Undergraduate Conference on AI
+                </Text>
+            </Col>
+        </Card.Header>
+        <Card.Body css={{ p: 0 }}>
+            <Card.Image
+                src="cucai.png"
+                objectFit="cover"
+                width="100%"
+                height="100%"
+                css={
+                    { mt: "-20px" }
+                }
+            />
+        </Card.Body>
+        <Card.Footer
+            isBlurred
+            css={{
+                position: "absolute",
+                bgBlur: "#0f111466",
+                borderTop: "$borderWeights$light solid $gray800",
+                bottom: 0,
+                zIndex: 1,
+            }}
+        >
+            <Row>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Text color="#d1d1d1" size={14}>
+                                Delegate
+                            </Text>
+                            <Text color="#d1d1d1" size={14}>
+                                Invited to Canada's most prestigious AI conference
+                            </Text>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col>
+                    <Row>
+                        <Col>
+                            <Row justify='flex-end'>
+                                <a href='https://www.cucai.ca/'>
+                                    <Button
+                                        flat
+                                        auto
+                                        rounded
+                                        css={{ color: "#94f9f0", bg: "#94f9f026" }}
+                                    >
+                                        <Text
+                                            css={{ color: "inherit" }}
+                                            size={12}
+                                            weight="bold"
+                                            transform="uppercase"
+                                        >
+                                            See Project ➜
+                                        </Text>
+                                    </Button>
+                                </a>
+
+                            </Row>
+                            <Col>
+                                {/* <Badge size="sm"></Badge> */}
+                            </Col>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Card.Footer>
+    </Card>
+);
 
 
 
@@ -632,7 +962,16 @@ export default function Home() {
                             <CardMacRocket />
                         </Grid>
                         <Grid xs={12} sm={4}>
+                            <Macai />
+                        </Grid>
+                        <Grid xs={12} sm={4}>
+                            <Macblock />
+                        </Grid>
+                        <Grid xs={12} sm={4}>
                             <Huff />
+                        </Grid>
+                        <Grid xs={12} sm={4}>
+                            <Chari3 />
                         </Grid>
                         <Grid xs={12} sm={4}>
                             <Irc />
@@ -657,6 +996,9 @@ export default function Home() {
                         Some of my Leadership Experiences!
                     </Text>
                     <Grid.Container gap={1} justify="center">
+                        <Grid xs={12} sm={4}>
+                            <Cucai />
+                        </Grid>
                         <Grid xs={12} sm={4}>
                             <Engop />
                         </Grid>
