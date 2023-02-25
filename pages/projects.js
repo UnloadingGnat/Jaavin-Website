@@ -323,9 +323,8 @@ export const Macblock = () => (
 
                             </Row>
                             <Col>
-                                {/* <Badge size="sm"></Badge> */}
-
-
+                                <Badge size="sm">Next.js</Badge>
+                                <Badge size="sm">Tailwind CSS</Badge>
                             </Col>
                         </Col>
                     </Row>
@@ -625,7 +624,7 @@ export const Route = () => (
                                 Frontend Developer
                             </Text>
                             <Text color="#d1d1d1" size={14}>
-                                Developed the frontend for website, and utilized Google Maps API 
+                                Developed frontend for website, and utilized Google Maps API 
                             </Text>
                         </Col>
                     </Row>
