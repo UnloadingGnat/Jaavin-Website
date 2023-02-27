@@ -2,10 +2,10 @@
 
 
 #### Design
-The pill-shaped bottom nav bar was inspired by androids function keys at the bottom, and it seemed easier to use a website on mobile if the menu items were near the bottom. The images are also able to be moved around which makes it alot more interactive and fun to use :)
+The pill-shaped bottom nav bar was inspired by androids function keys at the bottom, and it seemed easier to use a website on mobile if the menu items were near the bottom.
 
 
-Handmade with Next.js, CSS, and Next-UI components
+Website built using with ![NextJS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white), and Next-UI components
 
 
 
