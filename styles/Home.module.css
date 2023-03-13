@@ -7,14 +7,12 @@
   min-height: 100vh;
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 8em;
 }
-
 
 .header {
   font-family: var(--font-mono);
@@ -44,42 +42,35 @@
   gap: 25px;
 }
 
-
-
-
 @media (max-width: 900px) {
   .images {
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 60px !important;    
+    margin-top: 60px !important;
   }
 
   .biocontent {
     font-size: 25px !important;
     line-height: 46px !important;
-
   }
-  
-  
+
   .subtitle {
     display: flex;
     align-self: center;
     color: rgb(111, 111, 111);
     font-size: 16px !important;
-
   }
   .subtitle2 {
     display: flex;
     align-self: center;
     color: rgb(111, 111, 111);
     font-size: 16px !important;
-
   }
 
-    .gallery {
-      width: 50%;
-      margin-left: -10px;
-    }
+  .gallery {
+    width: 50%;
+    margin-left: -10px;
+  }
 
   .gallery2 {
     position: absolute;
@@ -95,62 +86,56 @@
     margin-left: -10px;
     margin-top: 0px !important;
   }
-  
+
   .whitespace {
     padding-top: 210px !important;
     margin-top: 50px;
-  
   }
-  
-  
+
   .bio {
     position: absolute;
     top: 48em;
     margin-top: 130px !important;
-    
   }
 
-    .card h2 {
-      min-width: 0;
-      font-size: 23px;
-      
-    }
-  
-    .cardactive h2 {
-      min-width: 0;
-      font-size: 23px;
-    }
+  .card h2 {
+    min-width: 0;
+    font-size: 23px;
+  }
 
+  .cardactive h2 {
+    min-width: 0;
+    font-size: 23px;
+  }
 }
 
-
-@media (min-width:600px) and (max-width:900px) {
+@media (min-width: 600px) and (max-width: 900px) {
   .gallery2 {
     margin-top: -100px !important;
   }
 }
-  .gallery2 {
-    display: flex;
-    margin-top: 180px;
-    max-width: 500px;
-    flex-direction: column;
-    justify-content: center;    
-  }
-  .gallery3 {
-    display: flex;
-    margin-top: 210px;
-    max-width: 300px;
-    flex-direction: column;
-    justify-content: center;    
-  }
-  
-  .gallery {
-    display: flex;
-    max-width: 300px;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
+.gallery2 {
+  display: flex;
+  margin-top: 180px;
+  max-width: 500px;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery3 {
+  display: flex;
+  margin-top: 210px;
+  max-width: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .link {
   padding-top: 1.27px;
   padding-bottom: 1.27px;
@@ -187,24 +172,22 @@
 }
 
 .biotitle {
-    font-family: var(--font-mono);
-    max-width: var(--max-width);
-    font-size: 54px;
-    font-weight: 400;
-    color: rgb(35, 35, 35);
-    letter-spacing: -0.27px;
-    line-height: 62.1px;
-    margin-bottom: 30px;
+  font-family: var(--font-mono);
+  max-width: var(--max-width);
+  font-size: 54px;
+  font-weight: 400;
+  color: rgb(35, 35, 35);
+  letter-spacing: -0.27px;
+  line-height: 62.1px;
+  margin-bottom: 30px;
 }
 
-.biocontent{
+.biocontent {
   color: rgb(111, 111, 111);
   font-size: 36px;
   max-width: 800px;
   line-height: 53px;
 }
-
-
 
 .imagedrag {
   user-drag: none;
@@ -220,7 +203,6 @@
   align-self: center;
   color: rgb(111, 111, 111);
   font-size: 24px;
-
 }
 
 .subtitle2 {
@@ -228,24 +210,21 @@
   align-self: center;
   color: rgb(111, 111, 111);
   font-size: 18px;
-
 }
 
 .whitespace {
   height: 190px;
 }
 .headerinfo {
+  font-family: var(--font-mono);
+  max-width: var(--max-width);
 
-    font-family: var(--font-mono);
-      max-width: var(--max-width);
-
-      font-size: 24px;
-      font-weight: 400;
-      color: rgb(111, 111, 111);
-      letter-spacing: -0.27px;
-      line-height: 42.1px;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(111, 111, 111);
+  letter-spacing: -0.27px;
+  line-height: 42.1px;
 }
-
 
 .description {
   display: inherit;
@@ -262,7 +241,6 @@
   font-size: large;
   height: 1000px;
 }
-
 
 .description a {
   display: flex;
@@ -306,13 +284,10 @@
   transition: background 200ms, border 200ms;
 }
 
-
-
 .card span {
   display: inline-block;
   transition: transform 200ms;
 }
-
 
 .card p {
   margin: 0;
@@ -345,7 +320,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -372,7 +347,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
@@ -409,7 +384,6 @@
   transform: translateX(4px);
 }
 
-
 @media (prefers-reduced-motion) {
   .thirteen::before {
     animation: none;
@@ -419,4 +393,3 @@
     transform: none;
   }
 }
-
