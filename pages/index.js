@@ -3,15 +3,25 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import JSConfetti from "js-confetti";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  let serverconf = null;
   if (typeof window !== "undefined") {
     // browser code
     document.getElementById("html").style.overflow = "hidden";
     document.getElementById("body").style.overflow = "scroll";
+
+    const jsConfetti = new JSConfetti();
+    setTimeout(() => {
+      jsConfetti.addConfetti({ emojis: ["👋"], confettiNumber: 3 });
+    }, 500);
+
+    serverconf = jsConfetti;
   }
+
   return (
     <>
       <Head>
@@ -22,7 +32,22 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.content}>
-          <div className={styles.header}>Hello👋, I&apos;m Jaavin.</div>
+          <div className={styles.header}>
+            Hello
+            <span
+              className={styles.wave}
+              onClick={() =>
+                serverconf.addConfetti({
+                  emojis: ["👋"],
+                  confettiNumber: 20,
+                })
+              }
+              style={{ cursor: "pointer" }}
+            >
+              👋
+            </span>
+            , I&apos;m Jaavin.
+          </div>
           <div className={styles.headerinfo}>
             I like solving complex problems and nothing can stop me. I am a
             first-year engineering student at McMaster University interested in
@@ -33,7 +58,18 @@ export default function Home() {
           </div>
           <div className={styles.images}>
             <div className={styles.gallery}>
-              <img className={styles.imagedrag} src="jaavin.png" alt="me"></img>
+              <img
+                className={styles.imagedrag}
+                src="jaavin.png"
+                alt="me"
+                onClick={() =>
+                  serverconf.addConfetti({
+                    emojis: ["👨‍💻"],
+                    confettiNumber: 20,
+                  })
+                }
+                style={{ cursor: "pointer" }}
+              />
               <div className={styles.subtitle}>Me :)</div>
             </div>
             <div className={styles.gallery2}>
@@ -41,7 +77,14 @@ export default function Home() {
                 className={styles.imagedrag}
                 src="1325.jpg"
                 alt="Team 1325 2022 Robot Overtime"
-              ></img>
+                onClick={() =>
+                  serverconf.addConfetti({
+                    emojis: ["🤖"],
+                    confettiNumber: 20,
+                  })
+                }
+                style={{ cursor: "pointer" }}
+              />
               <div className={styles.subtitle2}>
                 1325 at 2022 FIRST Ontario Provincial Championship
               </div>
@@ -51,7 +94,14 @@ export default function Home() {
                 className={styles.imagedrag}
                 src="macrocket.png"
                 alt="Marauder 1"
-              ></img>
+                onClick={() =>
+                  serverconf.addConfetti({
+                    emojis: ["🚀"],
+                    confettiNumber: 20,
+                  })
+                }
+                style={{ cursor: "pointer" }}
+              />
               <div className={styles.subtitle2}>
                 Marauder 1 at Launch Canada
               </div>
