@@ -49,7 +49,7 @@ export default function Home() {
             , I&apos;m Jaavin.
           </div>
           <div className={styles.headerinfo}>
-            I like solving complex problems and nothing can stop me. I&apos;m a
+            I like solving complex problems and nothing can stop me. I am a
             first-year engineering student at McMaster University interested in
             blockchain, ai, robotics, and rockets!{" "}
             <a className={styles.linkres} href="JaavinMohanakumarResume.pdf">
