@@ -16,7 +16,7 @@ export default function Home() {
 
     const jsConfetti = new JSConfetti();
     setTimeout(() => {
-      jsConfetti.addConfetti({ emojis: ["👋"], confettiNumber: 3 });
+      jsConfetti.addConfetti({ emojis: ["👋"], confettiNumber: 4 });
     }, 500);
 
     serverconf = jsConfetti;
